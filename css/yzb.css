@@ -1,0 +1,583 @@
+.body{
+	font-size: 18px;
+	font-family: '微软雅黑','Microsoft YaHei','Open Sans',sans-serif;
+}
+.navbar{
+	background-color: #2d3057;
+}
+.navbar-collapse ul{
+	background-color:#2d3057;
+}
+.navbar-collapse ul li a{	
+	padding: 9px 7px 7px 10px;
+	font-size: 17px;
+	color: white;
+}
+.navbar-collapse ul li a:hover{
+	background-color:rgb(153, 3, 3);
+}
+.navbar-collapse li ul{
+	background-color:rgb(153, 3, 3);
+}
+.navbar-collapse li ul a:hover{
+	background-color: #2d3057;
+	color:white;
+}
+/*--------下两个保证当一级菜单失去焦点之后不会背景是不会变-----*/
+.nav > li > a:focus {
+    background-color: #2d3057;/*背景色*/
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: rgb(153, 3, 3);
+}
+/*-----大图片-----*/
+.pic-coat{
+	background-color:#2d3057;
+	margin-top:70px;
+}
+.red-line{
+	background-color:rgb(153, 3, 3);
+}
+.pic-ads{
+	background-color:#2d3057;
+}
+.pic-space{
+	margin-left:-25px;
+}
+.pic-space img{
+	max-width:100%;
+	height:auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.pic-space a:hover{
+	background-color:rgb(153, 3, 3);
+}
+.pic-space .col-md-2{
+	padding-right:0px;
+	padding-left:10px;
+}
+/*----六个图片-------*/
+.inner-a {
+	background-color:rgb(71, 75, 120);
+}
+.inner-b {
+	background-color:rgb(218, 31, 40);
+}
+.inner-c {
+	background-color:rgb(235, 100, 27);
+}
+.inner-d{
+	background-color:rgb(125, 60, 74);
+}
+.inner-e {
+	background-color:rgb(125, 98, 94);
+}
+.inner-f{
+	background-color:rgb(57, 99, 157);
+}
+/*-----硕士公告-----*/
+.row-space{
+	padding-left:10px;
+	padding-right:10px;
+}
+.pull-left{
+	padding:3px 6px;
+	color:white;
+}
+.shuo{
+	background-color: rgb(90, 125, 174);
+}
+.bo{
+	background-color:rgb(225, 76, 83);
+}
+.pull-right{
+	position: absolute;
+	right:20px;
+	margin-top:3%;
+}
+.pull-right a{
+	display: block;
+	text-decoration: none;
+	color: rgb(45, 48, 87);
+	font-size: 13px;
+}
+.container-space .row ul{
+	list-style:none;
+	padding-left: 0;
+	text-decoration:none;
+}
+.row ul li {
+    line-height: 30px;    
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px dotted rgb(237, 237, 237);
+    overflow: hidden;
+}
+.row ul li a {
+    height: 40px;
+    line-height: 40px;    
+    overflow: hidden;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+.row ul li a:hover{
+	color:rgb(153, 3, 3);
+}
+.date{
+	float:right;
+	height: 28px;
+	line-height: 40px;
+}
+.date img{
+	color: transparent;
+	font-size: 0px;
+	vertical-align: middle;
+}
+/*-----报考指南-----*/
+.side-coat{
+	margin-bottom:10px;
+}
+.title{
+	color: white;
+	font-size: 24px;
+	background-color: rgb(71, 75, 120);
+	padding:5px 0;
+}
+.title a{
+	color:white;
+	text-decoration:none;
+}
+.item-coat{
+	background-color: rgb(214, 214, 214);
+}
+.item-coat a{
+	display: block;
+	color: rgb(71, 75, 120);
+	font-weight: bold;
+	text-decoration: none;
+}
+.item-coat a:hover{
+	color:rgb(153, 3, 3);
+}
+.item{
+	padding-top:1.5%;
+	padding-bottom:1.5%;
+}
+.xs-more {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(45, 48, 87);
+	margin-left:80px;
+}
+.side-coat .title img{
+	margin-left:35px;
+	margin-right:30px;
+}
+.item-coat{
+	padding-left:20px;
+}
+.item-coat .item img{
+	margin-right:20px;
+}
+/*-----footer部分-----*/
+.foot-yzb{
+	width: 100%;
+	height:auto;
+	display:block;
+	background-color: rgb(130, 130, 130);
+	color: white;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.left {
+	margin-top:3%;
+}
+.up{
+	margin-bottom:2%;
+}
+.weibo{
+	float:right;
+	margin-right:14%;
+}
+.right{
+	margin-top:3%;
+}
+.comingx {
+  height: 21px;
+  position: relative;
+  line-height: 21px;
+  overflow: hidden;
+}
+.comingx p {
+  padding-bottom: px;
+  font-size: 1.2em;
+}
+.comingx .logo {
+  position: absolute;
+  bottom: 1px;
+  left: 75px;
+}
+/****************二级页面*****************/
+.row-padding{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+}	
+.title img{
+	margin-left:35px;
+	margin-right:30px;
+}
+.erji-main{
+	background-color: rgb(245, 245, 245);
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.main-head {
+	font-size:14px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.main-head .progress{
+	margin-top:5px;
+}
+.erji-main .progress{/*改变了bootstrap中对进度条的设定*/
+	height:5px;
+	margin-bottom:20px;
+}
+.main-head .row {
+	padding-left:30px;
+	padding-right:15px;
+}
+.main-head .row a{
+	text-decoration:none;
+	color: black;
+}
+.main-head .row a:hover{
+	color:rgb(153, 3, 3);
+}
+.erji-main .date{
+	line-height:30px;
+}
+.erji-main ul {
+	padding-left:10px;
+	padding-right:10px;
+	list-style:none;
+	text-decoration:none;
+}
+.erji-main ul li {
+	font-size:16px;
+	border-bottom: 2px solid white;
+	margin-top:20px;
+}
+.erji-main ul li a{
+	line-height:30px;
+	color: rgb(71, 75, 120);    
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+}
+.erji-main ul li a:hover{
+	color:rgb(153, 3, 3);
+}
+.fanye{
+	margin-top:10px;
+	text-align:center;
+	font-size:16px;
+}
+.fanye a{ 
+	color: rgb(71, 75, 120);    
+    text-decoration: none;
+	padding:5px;
+}
+.fanye a:hover{
+	color:rgb(153, 3, 3);
+}
+.fanye-btn{
+	margin-top:10px;
+}
+a.active{
+	color: #FFF;
+	background-color: #990303;
+}
+a.active:hover{
+	color: #FFF;
+}
+
+/*-------三级页面--------*/
+.news-title{
+	text-align:center;
+	background-color: rgb(90, 125, 174);
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	padding-bottom: 6px;
+}
+.news-coat{
+	background-color: rgb(240, 241, 242);
+}
+.news-item{
+	overflow:hidden;
+	line-height: 30px;
+	height:30px;
+	padding-right:10px;
+	padding-left:10px;
+}
+.news-item a{
+	color: rgb(71, 75, 120);
+	text-decoration: none;
+}
+.news-item a:hover{
+	color:rgb(153,3,3);
+}
+.put-right{
+	float:right;
+	padding-right:20px;
+}
+.white{
+	background-color:black;
+	color:white;
+	padding:5px;
+}
+.three-title{
+	text-align:center;
+	margin:10px;
+	font-size:24px;
+}
+.article{
+	width: 90%;
+    margin: 25px auto 0px;
+    color: rgb(51, 51, 51);
+    line-height: 30px;
+    text-align: justify;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.article a{
+	text-decoration: none;
+	color: rgb(153, 3, 3);
+}
+.article a:hover{
+	color:white;
+	background-color:rgb(153,3,3);
+}
+
+@media (max-width:468px){
+.navbar{
+	height:70px;
+	padding-top:20px;
+}
+.navbar-toggle{
+	margin-top:-8px;/*平衡bootstrap中的定义*/
+	margin-right:-15px;
+}
+.pic-coat{
+	margin-top:70px;
+}
+.pic-responsive {
+	width:100%;
+	height:auto;
+}
+.navbar-collapse ul li a:hover{
+	background-color:#2d3057;
+}
+.red-line{
+	height:6px;
+}
+.inner-a{
+	margin-top:2px;
+}
+.inner-b{
+	margin-top:2px;
+}
+.inner-c{
+	margin-top:2px;
+}
+.inner-d{
+	margin-top:2px;
+}
+.inner-e {
+	margin-top:2px;
+}
+.inner-f{
+	margin-top:2px;
+}
+.erji-main-coat{
+	padding-left:25px;
+	padding-right:25px;
+}
+.erji-main{
+	margin-top:10px;
+}
+.fanye{
+	display:none;
+}
+}
+@media (max-width:768px) and (min-width:468px){
+.navbar{
+	height:85px;
+	padding-top:20px;
+}
+.navbar-toggle{
+	margin-top:-8px;/*平衡bootstrap中的定义*/
+	margin-right:-15px;
+}
+.pic-coat{
+	margin-top:85px;
+}
+.pic-responsive {
+	width:100%;
+	height:auto;
+}
+.red-line{
+	height:7px;
+}
+.inner-a{
+	margin-top:5px;
+}
+.inner-b{
+	margin-top:5px;
+}
+.inner-c{
+	margin-top:5px;
+}
+.inner-d{
+	margin-top:5px;
+}
+.inner-e {
+	margin-top:5px;
+}
+.inner-f{
+	margin-top:5px;
+}
+.erji-main-coat{
+	padding-left:25px;
+	padding-right:25px;
+}
+.erji-main{
+	margin-top:10px;
+}
+.banquan{
+	margin-top:10px;
+}
+
+}
+@media (max-width:768px){
+.pic-space{
+	padding-left:10px;
+	padding-right:10px;
+}
+.container-space{
+	padding-left:25px;
+	padding-right:25px;
+}
+.two-bao{
+	padding-left:10px;
+	padding-right:25px;
+}
+.two-ul{
+	margin-left:-5px;
+	padding-left:0;
+	padding-right:5px;
+}
+.row-space{
+	padding-left:0;
+	padding-right:0;
+}
+.first-page ul{/*IE下右边滚动条遮盖了日期*/
+	padding-right:10px;
+}
+.fanye{
+	display:none;
+}
+}
+@media (min-width:768px) and (max-width:992px){
+.inner-d{
+	margin-top:5px;
+}
+.inner-e {
+	margin-top:5px;
+}
+.inner-f{
+	margin-top:5px;
+}
+
+.col-shuo .row {
+	padding-right: 10px;
+}
+.col-bo .row{
+	padding-left:10px;
+}
+.fanye{
+	display:none;
+}
+.control-bottom-padding{
+	height:300px;
+}
+}
+@media (min-width:768px){
+.navbar{
+	height:110px;
+	padding-top:10px;
+	padding-left:10px;
+}
+.navbar-collapse{
+	padding-top:3px;
+}
+.pic-coat{
+	margin-top:110px;
+}
+.pic-space{
+	padding-top:5px;
+}
+.red-line{
+	height:8px;
+}
+.pic-ads img{
+	width:100%;
+	display:block;
+	height:auto;
+}
+.col-bao{
+	margin-top:20px;
+}
+.side-coat .title img{
+	margin-left:35px;
+	margin-right:30px;
+}
+.item-coat{
+	padding-left:20px;
+}
+.item-coat .item img{
+	margin-right:20px;
+}
+.control-bottom-padding{
+	height:330px;
+}
+}
+@media (min-width:992px){
+.col-bo{
+	margin-left:3%;
+}
+.col-bao{
+	float:right;
+}
+.fanye-btn{
+	display:none;
+}
+.control-bottom-padding{
+	height:400px;
+}
+}
+@media (min-width:1500px){
+.container{
+	width:1470px;
+}
+}
+@media (min-width:1900px){
+.container{
+	width:1870px;
+}
+}
